@@ -84,3 +84,13 @@ TW_EXTRA_LANGUAGES := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
+
+# OrangeFox Configs
+FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER := 1
+OF_VANILLA_BUILD := 1
+FOX_REMOVE_AAPT := 1
+FOX_DRASTIC_SIZE_REDUCTION := 1
+OF_FL_PATH1 := /sys/class/leds/led:torch_0/brightness
+OF_FL_PATH2 := /sys/class/leds/led:torch_1/brightness
+OF_MAINTAINER := zjunior06
+OF_USE_GREEN_LED := 0
